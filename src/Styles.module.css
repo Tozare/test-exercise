@@ -1,0 +1,85 @@
+.container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    width: 1481px;
+    height: 470px;
+    left: -41px;
+    top: 0px;
+    z-index: 0;
+    /* градиент */
+
+    background: linear-gradient(270deg, #2196F3 0%, #1EC3AF 101.06%);
+}
+
+
+.top-profile-avatar {
+    position: absolute;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    right: 148px;
+    top: 20px;
+}
+
+
+.top-profile-initials {
+    position: absolute;
+    z-index: 10;
+    width: 79px;
+    height: 19px;
+    right: 49px;
+    top: 31px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+
+.top-profile-notification {
+    z-index: 10;
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 10.42%;
+    bottom: 8.33%;
+    background: #FFFFFF;
+}
+
+.top-profile-divider {
+    position: absolute;
+    z-index: 10;
+    width: 39px;
+    height: 0px;
+    right: 169px;
+    top: 21px;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+
+/*.container {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+/*.container .top-profile {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: flex-end;*/
+/*}*/
+
+/*.container .top-profile .initials{*/
+/*    width: 79px;*/
+/*    height: 19px;*/
+/*}*/
